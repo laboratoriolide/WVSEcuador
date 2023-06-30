@@ -2,8 +2,7 @@
 
 En este repositorio se almacenan y actualizan las bases de datos de la encuesta World Values Survey (WVS) para Ecuador.
 
-**Elaborado por:** Laboratorio de Investigación para el Desarrollo del Ecuador
-
+**Elaborado por:** Laboratorio de Investigación para el Desarrollo del Ecuador (LIDE)  
 **Adminsitrador del repositorio:** Alonso Quijano Ruiz
 
 ## Contenido del repositorio

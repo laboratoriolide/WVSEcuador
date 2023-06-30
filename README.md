@@ -9,8 +9,8 @@ En este repositorio se almacenan y actualizan las bases de datos de la encuesta 
 
 - `code`: Archivo Do que extrae los datos de Ecuador de la WVS Timeseries (1981-2022).
 - `data`: Base de datos WV6 (2013) y WV7 (2018) de Ecuador.
-- `method`: Metodología de la encuesta.
 - `forms`: Cuestionarios de la encuesta.
+- `method`: Metodología de la encuesta.
 
 ## Descargo de responsabilidad
 

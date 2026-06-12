@@ -33,9 +33,6 @@ WVSEcuador$sexo <- recode_factor(WVSEcuador$sexo, Male = "Hombre", Female = "Muj
 A124_09 <- WVSEcuador %>% group_by(anio, sexo) %>% 
   summarize(mean = mean(A124_09 == 1, na.rm = TRUE))
 
-# Guardar los resultados
-saveRDS(A124_09, "outputs/lgbtq/homo_vecinos")
-
 # Gráfico comparando hombres y mujeres en los años 2013 y 2018
 A124_09 %>% 
   ggplot(aes(x = sexo, y = mean, fill = anio)) +
@@ -48,6 +45,9 @@ A124_09 %>%
   ) +
   theme_minimal()
 
+# Guardar los resultados
+saveRDS(A124_09, "outputs/lgbtq/homo_vecinos")
+
 # ---- D081: Las parejas homosexuales son tan buenos padres como otras parejas ----
 
 # Renombrar los niveles de la variable
@@ -58,9 +58,6 @@ levels(WVSEcuador$D081) <- c("No sabe", "Totalmente de acuerdo", "De acuerdo", "
 # Calcular la frecuencia relativa (Esta pregunta solo se hizo en el 2018)
 D081 <- WVSEcuador %>% filter (anio == 2018, !is.na(D081)) %>% group_by(D081) %>% 
   summarize(n = n()) %>% mutate(porc = n/sum(n))
-
-# Guardar los resultados
-saveRDS(D081, "outputs/lgbtq/homo_padres")
 
 # Gráfico
 D081 %>% 
@@ -73,3 +70,6 @@ D081 %>%
     fill = NULL
   ) +
   theme_minimal()
+
+# Guardar los resultados
+saveRDS(D081, "outputs/lgbtq/homo_padres")

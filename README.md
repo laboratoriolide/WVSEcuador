@@ -11,8 +11,6 @@ En este repositorio se almacenan y actualizan las bases de datos de la encuesta 
 - `data`: bases de datos WV6 (2013), WV7 (2018) y WVS Timeseries utilizadas para Ecuador.
 - `outputs`: resultados generados por los scripts de análisis.
 
-Los directorios `forms` y `method` pueden existir en copias locales del proyecto con cuestionarios y documentos metodológicos de la encuesta, pero no se mantienen en este repositorio remoto.
-
 ## Descargo de responsabilidad
 
 El Laboratorio de Investigación para Desarrollo del Ecuador (LIDE) proporciona este repositorio como un recurso para acceder a los datos de la encuesta World Values Survey (WVS) para Ecuador. Sin embargo, es importante tener en cuenta que el LIDE no es dueño de los datos de la WVS y no tiene control sobre su contenido, calidad o actualización.

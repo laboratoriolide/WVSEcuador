@@ -3,14 +3,15 @@
 En este repositorio se almacenan y actualizan las bases de datos de la encuesta World Values Survey (WVS) para Ecuador.
 
 **Elaborado por:** Laboratorio de Investigación para el Desarrollo del Ecuador (LIDE)  
-**Adminsitrador del repositorio:** Alonso Quijano Ruiz
+**Administrador del repositorio:** Alonso Quijano Ruiz
 
 ## Contenido del repositorio
 
-- `code`: Archivo Do que extrae los datos de Ecuador de la WVS Timeseries (1981-2022).
-- `data`: Base de datos WV6 (2013) y WV7 (2018) de Ecuador.
-- `forms`: Cuestionarios de la encuesta.
-- `method`: Metodología de la encuesta.
+- `code`: scripts para extraer, procesar y analizar los datos de Ecuador de la WVS.
+- `data`: bases de datos WV6 (2013), WV7 (2018) y WVS Timeseries utilizadas para Ecuador.
+- `outputs`: resultados generados por los scripts de análisis.
+
+Los directorios `forms` y `method` pueden existir en copias locales del proyecto con cuestionarios y documentos metodológicos de la encuesta, pero no se mantienen en este repositorio remoto.
 
 ## Descargo de responsabilidad
 
